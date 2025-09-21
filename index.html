@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MobileShop - Ana Sayfa</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/script.js" defer></script>
+</head>
+<body>
+<header>
+  <div class="logo">Y MobileShop</div>
+  <nav id="navbar">
+    <a href="index.html">Ana Sayfa</a>
+    <a href="products.html">Ürünler</a>
+    <a href="cart.html">Sepet</a>
+    <a href="checkout.html">Ödeme</a>
+    <a href="about.html">Hakkımızda</a>
+    <a href="contact.html">İletişim</a>
+  </nav>
+</header>
+<section class="hero">
+  <h1>Hoşgeldiniz MobileShop</h1>
+  <p>En iyi telefonlar ve aksesuarlar burada!</p>
+</section>
+<section class="featured">
+  <h2>Öne Çıkan Ürünler</h2>
+  <div class="products">
+    <div class="product-card"><img src="assets/images/iphone.jpg"><h3>iPhone 14</h3><button onclick="addToCart('iPhone 14', 40000)">Sepete Ekle</button></div>
+    <div class="product-card"><img src="assets/images/samsung.jpg"><h3>Samsung S23</h3><button onclick="addToCart('Samsung S23', 30000)">Sepete Ekle</button></div>
+    <div class="product-card"><img src="assets/images/xiaomi.jpg"><h3>Xiaomi 13</h3><button onclick="addToCart('Xiaomi 13', 20000)">Sepete Ekle</button></div>
+  </div>
+</section>
+<footer>
+  <p>© 2025 MobileShop | Sosyal Medya: @mobileshop</p>
+</footer>
+</body>
+</html>
